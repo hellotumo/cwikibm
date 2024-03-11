@@ -1,0 +1,1 @@
+javascript:(function(){let baseURL = window.location.href; let revisedURL = 'https://cooked.wiki/' + baseURL; window.open(revisedURL)})();
