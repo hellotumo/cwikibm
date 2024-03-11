@@ -11,12 +11,13 @@ In this case, I grab the original recipe’s URL, add “https://cooked.wiki/”
 
 To use the bookmarklet, you need to take a few steps:
 
-1. Manually make a new bookmark in your browser.
+1/ Manually make a new bookmark in your browser.
 
-2. Rather than type a URL into the URL field, you’re going to put in this JavaScript code:
+2/ Rather than type a URL into the URL field, you’re going to put in this JavaScript code:
 
 javascript:(function(){let baseURL = window.location.href; let revisedURL = 'https://cooked.wiki/' + baseURL; window.open(revisedURL)})();
-3. Then go to a recipe page and click on the bookmarklet you’ve created.
+
+3/ Then go to a recipe page and click on the bookmarklet you’ve created.
 
 You can create a cooked.wiki account to save your favorites as you create them. I am at https://cooked.wiki/user/hellotumo. Here is an example of a “cooked.wiki” version of a mung bean egg recipe I tracked down: https://cooked.wiki/saved/8aa63401-d1c4-44be-a122-fa04e78246a9
 
